@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styles.css</file>
+        <file>settings.png</file>
+        <file>calculator.ico</file>
+    </qresource>
+</RCC>

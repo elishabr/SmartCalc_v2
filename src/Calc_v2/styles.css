@@ -1,0 +1,214 @@
+CustomButton_right {
+    background-color: #31CC24;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 2px 2px;
+    border-radius: 10px;
+    /*font-weight: bold;*/
+}
+
+CustomButton_right:hover {
+    background-color: #28A81E; /* Новый цвет кнопки при наведении */
+}
+
+CustomButton_right:focus {
+    background-color: #31CC24; /* Новый цвет кнопки при нажатии */
+}
+
+CustomButton {
+    background-color: #2D3240;
+    border: none;
+    color: #FFFFFF;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    border-radius: 10px;
+    /*font-weight: bold;*/
+}
+
+CustomButton:hover {
+    background-color: #222838; /* Новый цвет кнопки при наведении */
+}
+
+CustomButton:focus {
+    background-color: #2D3240; /* Новый цвет кнопки при нажатии */
+}
+
+CustomButton_menu {
+    background-color: #1A202E;
+    border: 2px solid #2D3240 ;
+    color: #FFFFFF;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    /*font-size: 16px*/;
+    margin: 2px 2px;
+    border-radius: 5px;
+    /*font-weight: bold;*/
+}
+
+CustomButton_menu:hover {
+    background-color: #363B4A; /* Новый цвет кнопки при наведении */
+}
+
+CustomButton_menu:focus {
+    background-color: #222838; /* Новый цвет кнопки при нажатии */
+}
+
+/* Стили для QTabWidget */
+QTabWidget {
+    background-color: #1A202E; /* Цвет фона */
+    color: #FFFFFF;
+}
+
+/* Стили для вкладок */
+QTabBar::tab:selected {
+    background-color: #31CC24; /* Цвет фона вкладки */
+    border: 0px solid #31CC24; /* Граница вокруг вкладки */
+    padding: 4px 8px; /* Отступы вкладки */
+    margin-top: 0px; /* Верхний отступ между вкладками */
+    border-radius: 5px; /* Скругление углов */
+}
+
+/* Стили для активной вкладки */
+QTabBar::tab:selected {
+    background-color: #31CC24; /* Цвет фона активной вкладки */
+    border-bottom-color: #31CC24; /* Цвет нижней границы активной вкладки */
+    border-radius: 5px; /* Скругление углов */
+}
+
+QTabBar::tab {
+    background-color: #000000; /* Цвет фона активной вкладки */
+    color: #FFFFFF;
+}
+
+
+/* Стили для содержимого вкладок */
+QTabWidget::pane {
+    background-color: #1A202E; /* Цвет фона */
+    padding: 2px; /* Отступы внутри области содержимого */
+    border-radius: 10px; /* Скругление углов */
+}
+
+QMainWindow {
+    background-color: #000000; /* Цвет фона */
+}
+
+QLabel {
+    color: #FFFFFF;
+}
+
+QMenu {
+    background-color: #000000; /* Цвет фона */
+    border: 2px solid #31CC24 ;
+    color: #FFFFFF; /* Цвет текста */
+    border-radius: 5px; /* Скругление углов */
+}
+
+QMenu::item:selected {
+    background-color: #31CC24;
+}
+
+QUndoView {
+    background-color: #1A202E;
+    color: #727581;
+    font-size: 15px; /* Размер шрифта */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+QUndoView::item:focus {
+    background-color: #363B4A;
+    color: #FFFFFF;
+    border: 2px solid #31CC24 ;
+    border-radius: 5px; /* Скругление углов */
+}
+
+QUndoView::item:hover {
+    background-color: #363B4A; /* Новый цвет кнопки при наведении */
+}
+
+MyDialog {
+    background-color: #1A202E;
+}
+
+XAreaDialog {
+    background-color: #1A202E;
+}
+
+YAreaDialog {
+    background-color: #1A202E;
+}
+
+QLineEdit {
+    margin-top: 4px;
+    color: #FFFFFF;
+    height: 22px;
+    border: 2px solid #31CC24 ;
+    border-radius: 5px; /* Скругление углов */
+    background-color: #363B4A;
+}
+
+ScopeButton {
+    background-color: #1A202E;
+    border: 2px solid #2D3240 ;
+    color: #FFFFFF;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    /*font-size: 16px*/;
+    margin: 2px 2px;
+    border-radius: 5px;
+    /*font-weight: bold;*/
+}
+
+ScopeButton:hover {
+    background-color: #363B4A; /* Новый цвет кнопки при наведении */
+}
+
+ScopeButton:focus {
+    background-color: #222838; /* Новый цвет кнопки при нажатии */
+}
+
+PeriodButton {
+    background-color: #1A202E;
+    border: none;
+    color: #FFFFFF; /* Цвет текста */
+/*    font-size: 16px; /* Размер шрифта */
+/*    font-weight: bold; /* Жирный шрифт */
+    padding: 5px 10px; /* Отступы */
+}
+
+QRadioButton {
+    color: #FFFFFF;
+    padding: 5px 10px; /* Отступы */
+}
+
+QRadioButton::indicator {
+  border-radius: 10px; /* Скругление углов */
+  width: 10px;
+  height: 10px;
+  background-color: #1A202E;
+  border: 2px solid #2D3240 ;
+}
+
+QRadioButton::indicator:checked {
+  background-color: #31CC24;
+}
+
+QGroupBox {
+    margin-top: 10px;
+    border: 2px solid #2D3240 ;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+
+
+
+
